@@ -58,7 +58,7 @@ program.command('yarn')
 
 
 program.command('npm')
-    .description('Check and set the project to npm.')
+    .description('Check and set the project to pnpm.')
     .option('-c, --clean', 'Clean the project before setting it to npm.', false)
     .action((options) => {
         fs.readdirSync(process.cwd()).forEach(async file => {

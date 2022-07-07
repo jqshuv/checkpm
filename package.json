@@ -17,8 +17,5 @@
     "cli-progress": "^3.11.2",
     "commander": "^9.3.0",
     "wait": "^0.4.2"
-  },
-  "devDependencies": {
-    "husky": "^8.0.1"
   }
 }
