@@ -7,7 +7,6 @@
   "author": "Joshua Schmitt <jqshuv@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "precommit": "node .. yarn",
     "prepare": "husky install"
   },
   "bin": {
