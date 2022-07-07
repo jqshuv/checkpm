@@ -38,18 +38,19 @@ program.command('yarn')
                         console.log('Cleanup complete.');
                     });
                 }
-            };
 
-            exec('yarn install', (err, stdout, stderr) => {
-                if (err) {
-                    console.error(err);
-                    return;
-                } else if (stderr) {
-                    console.error(stderr);
-                    return;
-                }
-                console.log(stdout);
-            });
+
+                exec('yarn install', (err, stdout, stderr) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    } else if (stderr) {
+                        console.error(stderr);
+                        return;
+                    }
+                    console.log(stdout);
+                });
+            };
         });
 
         return;
@@ -76,18 +77,19 @@ program.command('npm')
                         console.log('Cleanup complete.');
                     });
                 }
-            };
 
-            exec('npm install', (err, stdout, stderr) => {
-                if (err) {
-                    console.error(err);
-                    return;
-                } else if (stderr) {
-                    console.error(stderr);
-                    return;
-                }
-                console.log(stdout);
-            });
+
+                exec('npm install', (err, stdout, stderr) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    } else if (stderr) {
+                        console.error(stderr);
+                        return;
+                    }
+                    console.log(stdout);
+                });
+            };
         });
 
         return;
@@ -114,18 +116,19 @@ program.command('pnpm')
                         console.log('Cleanup complete.');
                     });
                 }
-            };
 
-            exec('pnpm install', (err, stdout, stderr) => {
-                if (err) {
-                    console.error(err);
-                    return;
-                } else if (stderr) {
-                    console.error(stderr);
-                    return;
-                }
-                console.log(stdout);
-            });
+
+                exec('pnpm install', (err, stdout, stderr) => {
+                    if (err) {
+                        console.error(err);
+                        return;
+                    } else if (stderr) {
+                        console.error(stderr);
+                        return;
+                    }
+                    console.log(stdout);
+                });
+            };
         });
 
         return;

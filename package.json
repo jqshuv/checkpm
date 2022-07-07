@@ -7,15 +7,10 @@
   "author": "Joshua Schmitt <jqshuv@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install"
+    "precommit": "node . yarn && git add ."
   },
   "bin": {
     "checkpm": "src/index.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "node . yarn && git add ."
-    }
   },
   "dependencies": {
     "ansi-colors": "^4.1.3",
