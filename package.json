@@ -1,0 +1,25 @@
+{
+  "name": "checkpm",
+  "version": "1.0.0",
+  "description": "A npm package to check and fix the package manager in a project.",
+  "main": "src/index.js",
+  "repository": "https://github.com/jqshuv/forceyarn.git",
+  "author": "Joshua Schmitt <jqshuv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "node .. yarn",
+    "prepare": "husky install"
+  },
+  "bin": {
+    "checkpm": "src/index.js"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.11.2",
+    "commander": "^9.3.0",
+    "wait": "^0.4.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
+}
