@@ -5,7 +5,8 @@
  https://opensource.org/licenses/MIT
 -->
 
-# ForcePM
+# CheckPM
+A npm package to check and fix the package manager in a project.
 
 #### Temporary Readme:
 
